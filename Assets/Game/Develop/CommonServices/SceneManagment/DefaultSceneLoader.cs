@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Assets.CourseGame.Develop.CommonServices.SceneManagment
+namespace Assets.Game.Develop.CommonServices.SceneManagment
 {
     public class DefaultSceneLoader : ISceneLoader
     {

@@ -1,10 +1,10 @@
-﻿using Assets.CourseGame.Develop.CommonServices.Wallet;
-using Assets.CourseGame.Develop.Configs.Common.Wallet;
-using Assets.CourseGame.Develop.DI;
-using Assets.CourseGame.Develop.Utils.Reactive;
+﻿using Assets.Game.Develop.CommonServices.Wallet;
+using Assets.Game.Develop.Configs.Common.Wallet;
+using Assets.Game.Develop.DI;
+using Assets.Game.Develop.Utils.Reactive;
 using System;
 
-namespace Assets.CourseGame.Develop.CommonUI.Wallet
+namespace Assets.Game.Develop.CommonUI.Wallet
 {
     public class CurrencyPresenter : IInitializable, IDisposable
     {

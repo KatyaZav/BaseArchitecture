@@ -1,7 +1,7 @@
-﻿using Assets.CourseGame.Develop.Configs.Gameplay;
+﻿using Assets.Game.Develop.Configs.Gameplay;
 using System.Collections.Generic;
 
-namespace Assets.CourseGame.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup
+namespace Assets.Game.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup
 {
     public class LevelTileListPresenter
     {

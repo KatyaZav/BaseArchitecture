@@ -1,12 +1,12 @@
-﻿using Assets.CourseGame.Develop.CommonServices.CoroutinePerfomer;
-using Assets.CourseGame.Develop.CommonServices.LoadingScreen;
-using Assets.CourseGame.Develop.DI;
-using Assets.CourseGame.Develop.Gameplay.Infrastructure;
+﻿using Assets.Game.Develop.CommonServices.CoroutinePerfomer;
+using Assets.Game.Develop.CommonServices.LoadingScreen;
+using Assets.Game.Develop.DI;
+using Assets.Game.Develop.Gameplay.Infrastructure;
 using System;
 using System.Collections;
 using Object = UnityEngine.Object;
 
-namespace Assets.CourseGame.Develop.CommonServices.SceneManagment
+namespace Assets.Game.Develop.CommonServices.SceneManagment
 {
     public class SceneSwitcher
     {

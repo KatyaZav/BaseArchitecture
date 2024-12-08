@@ -1,10 +1,10 @@
-﻿using Assets.CourseGame.Develop.CommonServices.Wallet;
+﻿using Assets.Game.Develop.CommonServices.Wallet;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.Configs.Common.Wallet
+namespace Assets.Game.Develop.Configs.Common.Wallet
 {
     [CreateAssetMenu(menuName = "Configs/Common/Wallet/NewStartWalletConfig", fileName = "StartWalletConfig")]
     public class StartWalletConfig : ScriptableObject

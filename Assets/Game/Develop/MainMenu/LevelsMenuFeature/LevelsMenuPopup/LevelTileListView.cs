@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup
+namespace Assets.Game.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup
 {
     public class LevelTileListView : MonoBehaviour
     {

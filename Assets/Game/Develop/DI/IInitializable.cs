@@ -1,4 +1,4 @@
-﻿namespace Assets.CourseGame.Develop.DI
+﻿namespace Assets.Game.Develop.DI
 {
     public interface IInitializable
     {

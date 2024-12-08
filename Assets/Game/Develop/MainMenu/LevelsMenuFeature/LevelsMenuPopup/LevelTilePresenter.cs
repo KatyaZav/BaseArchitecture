@@ -1,8 +1,8 @@
-﻿using Assets.CourseGame.Develop.CommonServices.LevelsManagment;
-using Assets.CourseGame.Develop.CommonServices.SceneManagment;
+﻿using Assets.Game.Develop.CommonServices.LevelsManagment;
+using Assets.Game.Develop.CommonServices.SceneManagment;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup
+namespace Assets.Game.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup
 {
     public class LevelTilePresenter
     {

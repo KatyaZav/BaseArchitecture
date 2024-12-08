@@ -1,10 +1,10 @@
-﻿using Assets.CourseGame.Develop.CommonServices.DataManagment.DataProviders;
-using Assets.CourseGame.Develop.Utils.Reactive;
+﻿using Assets.Game.Develop.CommonServices.DataManagment.DataProviders;
+using Assets.Game.Develop.Utils.Reactive;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Assets.CourseGame.Develop.CommonServices.Wallet
+namespace Assets.Game.Develop.CommonServices.Wallet
 {
     public class WalletService : IDataReader<PlayerData>, IDataWriter<PlayerData>
     {

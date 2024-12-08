@@ -1,9 +1,9 @@
-﻿using Assets.CourseGame.Develop.DI;
-using Assets.CourseGame.Develop.Gameplay.Entities;
-using Assets.CourseGame.Develop.Utils.Reactive;
+﻿using Assets.Game.Develop.DI;
+using Assets.Game.Develop.Gameplay.Entities;
+using Assets.Game.Develop.Utils.Reactive;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.Gameplay
+namespace Assets.Game.Develop.Gameplay
 {
     public class GameplayTest : MonoBehaviour
     {

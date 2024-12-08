@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Assets.CourseGame.Develop.CommonServices.DataManagment.DataProviders
+namespace Assets.Game.Develop.CommonServices.DataManagment.DataProviders
 {
     public abstract class DataProvider<TData> where TData : ISaveData
     {

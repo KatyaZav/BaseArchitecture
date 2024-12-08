@@ -1,4 +1,4 @@
-﻿namespace Assets.CourseGame.Develop.CommonServices.SceneManagment
+﻿namespace Assets.Game.Develop.CommonServices.SceneManagment
 {
     public interface IInputSceneArgs
     {

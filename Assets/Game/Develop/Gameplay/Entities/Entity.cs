@@ -1,9 +1,9 @@
-﻿using Assets.CourseGame.Develop.Gameplay.Entities.Behaviours;
+﻿using Assets.Game.Develop.Gameplay.Entities.Behaviours;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.Gameplay.Entities
+namespace Assets.Game.Develop.Gameplay.Entities
 {
     public class Entity : MonoBehaviour
     {

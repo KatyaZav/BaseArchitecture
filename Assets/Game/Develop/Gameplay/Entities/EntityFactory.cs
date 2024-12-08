@@ -1,10 +1,10 @@
-﻿using Assets.CourseGame.Develop.CommonServices.AssetsManagment;
-using Assets.CourseGame.Develop.DI;
-using Assets.CourseGame.Develop.Gameplay.Features.MovementFeature;
-using Assets.CourseGame.Develop.Utils.Reactive;
+﻿using Assets.Game.Develop.CommonServices.AssetsManagment;
+using Assets.Game.Develop.DI;
+using Assets.Game.Develop.Gameplay.Features.MovementFeature;
+using Assets.Game.Develop.Utils.Reactive;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.Gameplay.Entities
+namespace Assets.Game.Develop.Gameplay.Entities
 {
     public class EntityFactory
     {

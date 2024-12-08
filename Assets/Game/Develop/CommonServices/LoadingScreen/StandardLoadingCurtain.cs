@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.CourseGame.Develop.CommonServices.LoadingScreen
+namespace Assets.Game.Develop.CommonServices.LoadingScreen
 {
     public class StandardLoadingCurtain : MonoBehaviour, ILoadingCurtain
     {

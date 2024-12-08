@@ -1,17 +1,17 @@
-﻿using Assets.CourseGame.Develop.CommonServices.AssetsManagment;
-using Assets.CourseGame.Develop.CommonServices.ConfigsManagment;
-using Assets.CourseGame.Develop.CommonServices.CoroutinePerfomer;
-using Assets.CourseGame.Develop.CommonServices.DataManagment;
-using Assets.CourseGame.Develop.CommonServices.DataManagment.DataProviders;
-using Assets.CourseGame.Develop.CommonServices.LevelsManagment;
-using Assets.CourseGame.Develop.CommonServices.LoadingScreen;
-using Assets.CourseGame.Develop.CommonServices.SceneManagment;
-using Assets.CourseGame.Develop.CommonServices.Wallet;
-using Assets.CourseGame.Develop.DI;
+﻿using Assets.Game.Develop.CommonServices.AssetsManagment;
+using Assets.Game.Develop.CommonServices.ConfigsManagment;
+using Assets.Game.Develop.CommonServices.CoroutinePerfomer;
+using Assets.Game.Develop.CommonServices.DataManagment;
+using Assets.Game.Develop.CommonServices.DataManagment.DataProviders;
+using Assets.Game.Develop.CommonServices.LevelsManagment;
+using Assets.Game.Develop.CommonServices.LoadingScreen;
+using Assets.Game.Develop.CommonServices.SceneManagment;
+using Assets.Game.Develop.CommonServices.Wallet;
+using Assets.Game.Develop.DI;
 using System;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.EntryPoint
+namespace Assets.Game.Develop.EntryPoint
 {
     public class EntryPoint : MonoBehaviour
     {

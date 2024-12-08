@@ -1,4 +1,4 @@
-﻿namespace Assets.CourseGame.Develop.CommonServices.AssetsManagment
+﻿namespace Assets.Game.Develop.CommonServices.AssetsManagment
 {
     public class InfrastructureAssetPaths
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.CommonUI
+namespace Assets.Game.Develop.CommonUI
 {
     public class IconsWithTextListView : MonoBehaviour
     {

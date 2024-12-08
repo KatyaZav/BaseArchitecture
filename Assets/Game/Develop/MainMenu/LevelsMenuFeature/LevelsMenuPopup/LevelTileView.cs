@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.CourseGame.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup
+namespace Assets.Game.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup
 {
     public class LevelTileView : MonoBehaviour
     {

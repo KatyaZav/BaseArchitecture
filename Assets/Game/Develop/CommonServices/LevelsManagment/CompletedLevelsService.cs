@@ -1,7 +1,7 @@
-﻿using Assets.CourseGame.Develop.CommonServices.DataManagment.DataProviders;
+﻿using Assets.Game.Develop.CommonServices.DataManagment.DataProviders;
 using System.Collections.Generic;
 
-namespace Assets.CourseGame.Develop.CommonServices.LevelsManagment
+namespace Assets.Game.Develop.CommonServices.LevelsManagment
 {
     public class CompletedLevelsService : IDataReader<PlayerData>, IDataWriter<PlayerData>  
     {

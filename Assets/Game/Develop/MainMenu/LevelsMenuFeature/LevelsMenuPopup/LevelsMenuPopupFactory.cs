@@ -1,12 +1,12 @@
-﻿using Assets.CourseGame.Develop.CommonServices.AssetsManagment;
-using Assets.CourseGame.Develop.CommonServices.ConfigsManagment;
-using Assets.CourseGame.Develop.CommonServices.LevelsManagment;
-using Assets.CourseGame.Develop.CommonServices.SceneManagment;
-using Assets.CourseGame.Develop.DI;
-using Assets.CourseGame.Develop.MainMenu.UI;
+﻿using Assets.Game.Develop.CommonServices.AssetsManagment;
+using Assets.Game.Develop.CommonServices.ConfigsManagment;
+using Assets.Game.Develop.CommonServices.LevelsManagment;
+using Assets.Game.Develop.CommonServices.SceneManagment;
+using Assets.Game.Develop.DI;
+using Assets.Game.Develop.MainMenu.UI;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup
+namespace Assets.Game.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup
 {
     public class LevelsMenuPopupFactory
     {

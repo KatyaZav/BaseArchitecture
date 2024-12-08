@@ -1,4 +1,4 @@
-﻿namespace Assets.CourseGame.Develop.Gameplay.Entities
+﻿namespace Assets.Game.Develop.Gameplay.Entities
 {
     public enum EntityValues
     {

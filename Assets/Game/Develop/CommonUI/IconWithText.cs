@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.CourseGame.Develop.CommonUI
+namespace Assets.Game.Develop.CommonUI
 {
     public class IconWithText : MonoBehaviour
     {

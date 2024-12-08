@@ -1,4 +1,4 @@
-﻿namespace Assets.CourseGame.Develop.Gameplay.Entities.Behaviours
+﻿namespace Assets.Game.Develop.Gameplay.Entities.Behaviours
 {
     public interface IEntityDispose : IEntityBehaviour
     {

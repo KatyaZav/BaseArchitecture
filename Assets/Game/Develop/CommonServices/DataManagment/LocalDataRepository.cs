@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.CommonServices.DataManagment
+namespace Assets.Game.Develop.CommonServices.DataManagment
 {
     public class LocalDataRepository : IDataRepository
     {

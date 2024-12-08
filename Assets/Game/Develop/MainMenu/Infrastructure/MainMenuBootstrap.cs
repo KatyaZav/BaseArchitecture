@@ -1,11 +1,11 @@
-using Assets.CourseGame.Develop.CommonServices.AssetsManagment;
-using Assets.CourseGame.Develop.CommonServices.DataManagment.DataProviders;
-using Assets.CourseGame.Develop.CommonServices.SceneManagment;
-using Assets.CourseGame.Develop.CommonServices.Wallet;
-using Assets.CourseGame.Develop.CommonUI.Wallet;
-using Assets.CourseGame.Develop.DI;
-using Assets.CourseGame.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup;
-using Assets.CourseGame.Develop.MainMenu.UI;
+using Assets.Game.Develop.CommonServices.AssetsManagment;
+using Assets.Game.Develop.CommonServices.DataManagment.DataProviders;
+using Assets.Game.Develop.CommonServices.SceneManagment;
+using Assets.Game.Develop.CommonServices.Wallet;
+using Assets.Game.Develop.CommonUI.Wallet;
+using Assets.Game.Develop.DI;
+using Assets.Game.Develop.MainMenu.LevelsMenuFeature.LevelsMenuPopup;
+using Assets.Game.Develop.MainMenu.UI;
 using System.Collections;
 using UnityEngine;
 

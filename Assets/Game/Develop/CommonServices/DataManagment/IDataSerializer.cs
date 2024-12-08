@@ -1,4 +1,4 @@
-﻿namespace Assets.CourseGame.Develop.CommonServices.DataManagment
+﻿namespace Assets.Game.Develop.CommonServices.DataManagment
 {
     public interface IDataSerializer
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.CourseGame.Develop.CommonServices.SceneManagment
+namespace Assets.Game.Develop.CommonServices.SceneManagment
 {
     public interface IOutputSceneArgs
     {

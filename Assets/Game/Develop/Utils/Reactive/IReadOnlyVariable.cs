@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.CourseGame.Develop.Utils.Reactive
+namespace Assets.Game.Develop.Utils.Reactive
 {
     public interface IReadOnlyVariable<T>
     {

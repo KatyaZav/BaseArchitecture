@@ -1,7 +1,7 @@
-using Assets.CourseGame.Develop.CommonUI;
+using Assets.Game.Develop.CommonUI;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.MainMenu.UI
+namespace Assets.Game.Develop.MainMenu.UI
 {
     public class MainMenuUIRoot : MonoBehaviour
     {

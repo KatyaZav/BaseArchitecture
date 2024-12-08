@@ -1,9 +1,9 @@
-﻿using Assets.CourseGame.Develop.Gameplay.Entities;
-using Assets.CourseGame.Develop.Gameplay.Entities.Behaviours;
-using Assets.CourseGame.Develop.Utils.Reactive;
+﻿using Assets.Game.Develop.Gameplay.Entities;
+using Assets.Game.Develop.Gameplay.Entities.Behaviours;
+using Assets.Game.Develop.Utils.Reactive;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.Gameplay.Features.MovementFeature
+namespace Assets.Game.Develop.Gameplay.Features.MovementFeature
 {
     public class CharacterControllerMovementBehaviour : IEntityInitialize, IEntityUpdate
     {

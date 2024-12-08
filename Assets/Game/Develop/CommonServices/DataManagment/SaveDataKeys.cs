@@ -1,8 +1,8 @@
-﻿using Assets.CourseGame.Develop.CommonServices.DataManagment.DataProviders;
+﻿using Assets.Game.Develop.CommonServices.DataManagment.DataProviders;
 using System;
 using System.Collections.Generic;
 
-namespace Assets.CourseGame.Develop.CommonServices.DataManagment
+namespace Assets.Game.Develop.CommonServices.DataManagment
 {
     public static class SaveDataKeys
     {

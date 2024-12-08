@@ -1,12 +1,12 @@
-﻿using Assets.CourseGame.Develop.CommonServices.ConfigsManagment;
-using Assets.CourseGame.Develop.CommonServices.DataManagment.DataProviders;
-using Assets.CourseGame.Develop.CommonServices.LoadingScreen;
-using Assets.CourseGame.Develop.CommonServices.SceneManagment;
-using Assets.CourseGame.Develop.DI;
+﻿using Assets.Game.Develop.CommonServices.ConfigsManagment;
+using Assets.Game.Develop.CommonServices.DataManagment.DataProviders;
+using Assets.Game.Develop.CommonServices.LoadingScreen;
+using Assets.Game.Develop.CommonServices.SceneManagment;
+using Assets.Game.Develop.DI;
 using System.Collections;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.EntryPoint
+namespace Assets.Game.Develop.EntryPoint
 {
     //Если entry point - это просто глобальные регистрации для старта проекта,
     //то bootstrap - уже инициализация начала работ

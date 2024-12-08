@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.CourseGame.Develop.Utils.Reactive
+namespace Assets.Game.Develop.Utils.Reactive
 {
     public class ReactiveVariable<T> : IReadOnlyVariable<T> where T : IEquatable<T>
     {

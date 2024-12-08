@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.CommonServices.CoroutinePerfomer
+namespace Assets.Game.Develop.CommonServices.CoroutinePerfomer
 {
     public interface ICoroutinePerformer
     {

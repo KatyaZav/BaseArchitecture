@@ -1,4 +1,4 @@
-﻿namespace Assets.CourseGame.Develop.CommonServices.DataManagment.DataProviders
+﻿namespace Assets.Game.Develop.CommonServices.DataManagment.DataProviders
 {
     public interface IDataWriter<TData> where TData : ISaveData
     {

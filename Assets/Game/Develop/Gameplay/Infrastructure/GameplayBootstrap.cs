@@ -1,10 +1,10 @@
-using Assets.CourseGame.Develop.CommonServices.SceneManagment;
-using Assets.CourseGame.Develop.DI;
-using Assets.CourseGame.Develop.Gameplay.Entities;
+using Assets.Game.Develop.CommonServices.SceneManagment;
+using Assets.Game.Develop.DI;
+using Assets.Game.Develop.Gameplay.Entities;
 using System.Collections;
 using UnityEngine;
 
-namespace Assets.CourseGame.Develop.Gameplay.Infrastructure
+namespace Assets.Game.Develop.Gameplay.Infrastructure
 {
     public class GameplayBootstrap : MonoBehaviour
     {

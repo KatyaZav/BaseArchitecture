@@ -1,8 +1,8 @@
-﻿using Assets.CourseGame.Develop.CommonServices.AssetsManagment;
-using Assets.CourseGame.Develop.Configs.Common.Wallet;
-using Assets.CourseGame.Develop.Configs.Gameplay;
+﻿using Assets.Game.Develop.CommonServices.AssetsManagment;
+using Assets.Game.Develop.Configs.Common.Wallet;
+using Assets.Game.Develop.Configs.Gameplay;
 
-namespace Assets.CourseGame.Develop.CommonServices.ConfigsManagment
+namespace Assets.Game.Develop.CommonServices.ConfigsManagment
 {
     public class ConfigsProviderService
     {

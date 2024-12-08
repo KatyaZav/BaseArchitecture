@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Assets.CourseGame.Develop.DI
+namespace Assets.Game.Develop.DI
 {
     public class DIContainer : IDisposable
     {

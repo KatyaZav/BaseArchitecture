@@ -1,4 +1,4 @@
-﻿namespace Assets.CourseGame.Develop.CommonServices.LoadingScreen
+﻿namespace Assets.Game.Develop.CommonServices.LoadingScreen
 {
     public interface ILoadingCurtain
     {

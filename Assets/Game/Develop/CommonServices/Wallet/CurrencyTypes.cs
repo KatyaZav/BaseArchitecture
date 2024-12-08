@@ -1,4 +1,4 @@
-﻿namespace Assets.CourseGame.Develop.CommonServices.Wallet
+﻿namespace Assets.Game.Develop.CommonServices.Wallet
 {
     public enum CurrencyTypes
     {
