@@ -24,7 +24,7 @@ namespace Assets.Game.Develop.CommonServices.ConfigsManagment
         public void LoadAll()
         {
             //подгружать конфиги из ресурсов
-            UnityEngine.Debug.LogError("Cheak all configs");
+            //UnityEngine.Debug.LogError("Cheak all configs");
 
             LoadStartWalletConfig();
             LoadCurrencyIconsConfig();

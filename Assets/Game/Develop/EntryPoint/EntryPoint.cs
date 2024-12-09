@@ -35,7 +35,7 @@ namespace Assets.Game.Develop.EntryPoint
             RegisterSceneSwitcher(projectContainer);
 
             RegisterSaveLoadService(projectContainer);
-            Debug.LogError("Cheack saving system");
+            //Debug.LogError("Cheack saving system");
             RegisterPlayerDataProvider(projectContainer);
 
             RegisterWalletService(projectContainer);
@@ -55,7 +55,7 @@ namespace Assets.Game.Develop.EntryPoint
 
         private void SetupAppSettings()
         {
-            Debug.LogError("Cheak settings before build");
+            //Debug.LogError("Cheak settings before build");
             QualitySettings.vSyncCount = 0; 
             Application.targetFrameRate = 144;
         }
