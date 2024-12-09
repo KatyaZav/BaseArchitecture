@@ -1,38 +1,31 @@
 ﻿using Assets.Game.Develop.DI;
-using Assets.Game.Develop.Gameplay.Entities;
-using Assets.Game.Develop.Utils.Reactive;
 using UnityEngine;
 
 namespace Assets.Game.Develop.Gameplay
 {
     public class GameplayTest : MonoBehaviour
     {
+        const string Numbers = "123";
+        const string Letters = "qwe";
+
         private DIContainer _container;
+        private string _answer, _playerInput;
 
-        private Entity _ghost;
-
-        public void StartProcess(DIContainer container)
+        public void StartProcess(DIContainer container, int variant)
         {
             _container = container;
-
-            _ghost = _container.Resolve<EntityFactory>().CreateGhost(Vector3.zero);
-
-            _ghost.TryGetValue(EntityValues.MoveSpeed, out ReactiveVariable<float> moveSpeed);
-            Debug.Log($"Скорость созданного призрака: {moveSpeed.Value}");
         }
 
         private void Update()
         {
-            Vector3 input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
+           if (_container == null)
+                return;
 
-            if(_ghost != null)
-            {
-                _ghost.TryGetValue(EntityValues.MoveDirection, out ReactiveVariable<Vector3> moveDirection);
-                _ghost.TryGetValue(EntityValues.RotationDirection, out ReactiveVariable<Vector3> rotationDirection);
-
-                moveDirection.Value = input;
-                rotationDirection.Value = input;
-            }
+           if (Input.anyKeyDown)
+           {
+                _playerInput += Input.inputString;
+                Debug.Log(_playerInput);
+           }
         }
     }
 }

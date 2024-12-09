@@ -32,11 +32,9 @@ public class MainMenuBootstrap : MonoBehaviour
 
     private void InitSceneSwitcher()
     {
-        Debug.Log("Aaaa");
         LevelChosing levelChosing = Instantiate(_container.Resolve<ResourcesAssetLoader>()
             .LoadResource<LevelChosing>("MainMenu/SceneSwitcher"));
 
-        Debug.Log(levelChosing);
         levelChosing.Init(_container);
     }
 }
