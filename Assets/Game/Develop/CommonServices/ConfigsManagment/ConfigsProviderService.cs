@@ -1,6 +1,8 @@
 ﻿using Assets.Game.Develop.CommonServices.AssetsManagment;
 using Assets.Game.Develop.Configs.Common.Wallet;
 using Assets.Game.Develop.Configs.Gameplay;
+using System.Diagnostics;
+using UnityEngine;
 
 namespace Assets.Game.Develop.CommonServices.ConfigsManagment
 {
@@ -22,6 +24,8 @@ namespace Assets.Game.Develop.CommonServices.ConfigsManagment
         public void LoadAll()
         {
             //подгружать конфиги из ресурсов
+            UnityEngine.Debug.LogError("Cheak all configs");
+
             LoadStartWalletConfig();
             LoadCurrencyIconsConfig();
             LoadLevelsListConfig();

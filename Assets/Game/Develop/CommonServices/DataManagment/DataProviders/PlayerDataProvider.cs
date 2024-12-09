@@ -2,6 +2,8 @@
 using Assets.Game.Develop.CommonServices.Wallet;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using UnityEngine;
 
 namespace Assets.Game.Develop.CommonServices.DataManagment.DataProviders
 {
@@ -19,6 +21,7 @@ namespace Assets.Game.Develop.CommonServices.DataManagment.DataProviders
 
         protected override PlayerData GetOriginData()
         {
+            UnityEngine.Debug.LogError("Cheak original player data");
             return new PlayerData()
             {
                 WalletData = InitWalletData(),

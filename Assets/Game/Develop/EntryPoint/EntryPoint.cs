@@ -35,6 +35,7 @@ namespace Assets.Game.Develop.EntryPoint
             RegisterSceneSwitcher(projectContainer);
 
             RegisterSaveLoadService(projectContainer);
+            Debug.LogError("Cheack saving system");
             RegisterPlayerDataProvider(projectContainer);
 
             RegisterWalletService(projectContainer);
@@ -44,6 +45,7 @@ namespace Assets.Game.Develop.EntryPoint
             RegisterCompletedLevelsService(projectContainer);
 
             projectContainer.Initialize();
+
             //все регистрации прошли
             projectContainer.Resolve<ICoroutinePerformer>().StartPerform(_gameBootstrap.Run(projectContainer));
         }
@@ -53,7 +55,8 @@ namespace Assets.Game.Develop.EntryPoint
 
         private void SetupAppSettings()
         {
-            QualitySettings.vSyncCount = 0;
+            Debug.LogError("Cheak settings before build");
+            QualitySettings.vSyncCount = 0; 
             Application.targetFrameRate = 144;
         }
 
