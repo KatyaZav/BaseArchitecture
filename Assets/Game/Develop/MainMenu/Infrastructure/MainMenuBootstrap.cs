@@ -19,58 +19,24 @@ public class MainMenuBootstrap : MonoBehaviour
 
         ProcessRegistrations();
 
-        InitializeUI();
-
         yield return new WaitForSeconds(1f);
-    }
-
-    private void InitializeUI()
-    {
-        MainMenuUIRoot mainMenuUIRoot = _container.Resolve<MainMenuUIRoot>();
-        mainMenuUIRoot.OpenLevelsMenuButton.Initialize(() =>
-        {
-            LevelsMenuPopupPresenter levelsMenuPopupPresenter = _container.Resolve<LevelsMenuPopupFactory>().CreateLevelsMenuPopupPresenter();
-            levelsMenuPopupPresenter.Enable();
-        });
     }
 
     private void ProcessRegistrations()
     {
         //Делаем регистрации для сцены геймплея
-        _container.RegisterAsSingle(c => new LevelsMenuPopupFactory(c));
-        _container.RegisterAsSingle(c => new WalletPresenterFactory(c));
-
-        _container.RegisterAsSingle(c =>
-        {
-            MainMenuUIRoot mainMenuUIRootPrefab = c.Resolve<ResourcesAssetLoader>().LoadResource<MainMenuUIRoot>("MainMenu/UI/MainMenuUIRoot");
-            return Instantiate(mainMenuUIRootPrefab);
-        }).NonLazy();
-
-        _container
-            .RegisterAsSingle(c => c.Resolve<WalletPresenterFactory>()
-            .CreateWalletPresenter(c.Resolve<MainMenuUIRoot>().WalletView))
-            .NonLazy();
+        InitSceneSwitcher();
 
         _container.Initialize();
     }
 
-    private void Update()
+    private void InitSceneSwitcher()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            _container.Resolve<SceneSwitcher>().ProcessSwitchSceneFor(new OutputMainMenuArgs(new GameplayInputArgs(2)));
-        }
+        Debug.Log("Aaaa");
+        LevelChosing levelChosing = Instantiate(_container.Resolve<ResourcesAssetLoader>()
+            .LoadResource<LevelChosing>("MainMenu/SceneSwitcher"));
 
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            WalletService wallet = _container.Resolve<WalletService>();
-            wallet.Add(CurrencyTypes.Gold, 100);
-            Debug.Log($"Деняк: {wallet.GetCurrency(CurrencyTypes.Gold).Value}");
-        }
-
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            _container.Resolve<PlayerDataProvider>().Save();
-        }
+        Debug.Log(levelChosing);
+        levelChosing.Init(_container);
     }
 }
